@@ -24,4 +24,4 @@
 ### **How to Run**
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com//FlappyBird.git
+   git clone https://github.com/manojKumar2204/FlappyBird.git
