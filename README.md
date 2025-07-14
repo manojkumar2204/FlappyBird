@@ -1,64 +1,93 @@
 # 🐦 **Flappy Bird – Java Swing Game**
 
-**Flappy Bird** is a desktop-based arcade game developed using Java and Swing. The objective is to navigate the bird through a series of pipes without hitting them. This project is a fun way to learn GUI programming and game development fundamentals in Java.
+**Flappy Bird** is a desktop game recreation built entirely with **Java** and **Swing**. This project mimics the mechanics of the classic mobile game, where the user controls a bird navigating through pipes to score points. The game is designed for fun, learning, and demonstrating object-oriented programming and GUI development in Java.
 
 ---
 
-## 🧠 **Project Overview**
-- **Objective**: Build a playable Flappy Bird clone using Java and Swing.
-- **Approach**: Event-driven architecture with custom graphics, collision detection, and simple physics.
-- **Outcome**: A responsive game window where the player controls the bird using the keyboard.
+## 🎯 **Project Overview**
+- **Objective**: Clone the popular Flappy Bird game using Java Swing.
+- **Technologies**: Java, Java Swing for GUI, OOP principles.
+- **Outcome**: A playable desktop version of Flappy Bird with smooth animations and scoring.
 
 ---
 
 ## 🗂️ **Repository Structure**
-FlappyBird/
+```
+FlappyBird-Java/
 ├── src/
-│ ├── App.java # Main class to launch the game
-│ ├── Bird.java # Handles bird logic and rendering
-├── assets/ # (Optional) Sound effects or images
-├── README.md  
+│   ├── App.java              # Main entry point to launch the game
+│   ├── FlappyBird.java       # Core game mechanics and rendering
+├── assets/                   # Images and sound files (if used)
+├── README.md                 # Project documentation
+└── .gitignore
+```
 
 ---
 
 ## 🚀 **Getting Started**
 
-### **Prerequisites**
-- Java JDK 8 or above
-- Any Java IDE (NetBeans, IntelliJ, Eclipse) or command line
+### ✅ **Prerequisites**
+- Java Development Kit (JDK) 8 or above
+- Any Java IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans)
 
-### **Installation**
-```bash
-git clone https://github.com/manojKumar2204/FlappyBird.git
-cd FlappyBird
-🧪 Usage
-Launch the game window.
+---
 
-Press the Spacebar to make the bird flap.
+### 🛠️ **How to Run**
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/FlappyBird-Java.git
+   cd FlappyBird-Java
+   ```
 
-Avoid the pipes to keep flying.
+2. **Open in Your IDE**
+   - Import the project into your preferred Java IDE.
+   - Ensure that all `.java` files are in the `src` folder or correct package.
 
-The game resets on collision.
+3. **Run the Game**
+   - Right-click `App.java` and select **Run** or execute:
+     ```bash
+     javac src/*.java
+     java src.App
+     ```
 
-📊 Game Logic
-Custom GamePanel uses javax.swing.Timer for frame updates.
+---
 
-Bird motion follows simple gravity and jump force.
+## 🕹️ **How to Play**
+- Press **Spacebar** or **Up Arrow** to flap the bird upward.
+- Avoid hitting the top, ground, or pipes.
+- Score increases with each pipe passed.
+- Game Over screen displays the final score.
 
-Pipe objects move continuously and reset after crossing screen.
+---
 
-Collision detection checks bounding rectangles of bird and pipes.
+## 🎮 **Features**
+- Smooth animation and bird physics
+- Collision detection
+- Score tracking
+- Restart functionality
+- Keyboard interaction
 
-📁 Note
-No external libraries are used.
+---
 
-You can modify images/sounds in the assets/ folder if you wish to enhance the game experience.
+## 📦 **Built With**
+- **Java SE** – Core programming language
+- **Java Swing** – GUI components and rendering
+- **Object-Oriented Programming** – Clean class structure
 
-🤝 Contributing
-Pull requests are welcome! Fork the repo and feel free to add improvements like sound effects, score tracking, or high score saving.
+---
 
-📄 License
-MIT License – see the LICENSE file.
+## 🧑‍💻 **Contributing**
+Feel free to fork the repository and propose enhancements:
+- 🐛 Bug fixes
+- 🎨 UI improvements
+- 🆕 New game features (levels, sound, etc.)
 
-📬 Contact
-For any feedback or questions, feel free to reach out via GitHub Issues or manojKumar2204.
+---
+
+## 📄 **License**
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 **Contact**
+For issues or suggestions, feel free to open an issue or contact manojKumar2204(https://github.com/manojkumar2204).
